@@ -1,1 +1,145 @@
 /*------------Tady piš svoje stylování --------------*/
+.header {
+  display: flex;
+}
+
+.social-media {
+  width: 40%;
+}
+
+.social-media a {
+  padding-left: 10px;
+}
+
+.card {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos {
+  overflow-x: auto;
+}
+
+
+.newsletter__article img {
+  display: none;
+}
+
+.newsletter {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.card--wide {
+  display: flex;
+}
+
+@media only screen 
+  and (min-width: 576px) and (max-width: 991px) {
+    .social-media {
+      flex-basis: 30%;
+    }
+  
+    .card--md {
+      width: 49%;
+    
+    }
+
+    .card--lg {
+      width: 100%;
+    }
+
+    .card--sm {
+      width: 49%;
+    }
+    .newsletter__article img {
+      display: initial;
+    }
+
+    .newsletter__article{
+      display: flex;
+    }
+    
+    .dashboard {
+      justify-content: space-between;
+    }
+    
+    
+  }
+
+  @media only screen 
+  and (min-width: 992px) and (max-width: 1199px) {
+    .social-media {
+      flex-basis: 20%;
+    }
+  
+    .card--md {
+      width: 49%;
+    }
+
+    .card--lg {
+      width: 100%;
+    }
+
+    .card--sm {
+      width: 49%;
+    }
+    .dashboard {
+      justify-content: space-between;
+    }
+    .newsletter__article img {
+      display: initial;
+    }
+
+    .newsletter__article{
+      width: 49%;
+      display: flex;
+    }
+  }   
+
+  @media only screen 
+  and (min-width: 1200px) {
+
+    .social-media {
+      flex-basis: 15%;
+    }
+  
+    .card--md {
+      order: -2;
+      width: 32%;
+    }
+
+    .card--lg {
+      width: 100%;
+    }
+
+    .card--sm {
+      width: 49%;
+    }
+    
+    .card--wide {
+      order: -1;
+      width: 32%;
+    }
+    
+
+    .dashboard {
+      justify-content: space-between;
+    }
+    .newsletter__article img {
+      display: initial;
+    }
+
+    .newsletter__article{
+      width: 49%;
+      display: flex;
+    }
+  }  
