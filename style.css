@@ -121,7 +121,7 @@
     }
   
     .card--md {
-      order: -2;
+      order: -1;
       width: 32%;
     }
 
@@ -134,7 +134,7 @@
     }
     
     .card--wide {
-      order: -1;
+      order: -2;
       width: 32%;
     }
     
